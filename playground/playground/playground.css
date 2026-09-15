@@ -1,0 +1,211 @@
+table {
+     border-collapse: collapse;
+     width: 100%;
+ }
+
+ .student_table_head_row {
+    color: greenyellow;
+    padding: 0px;
+
+    background: linear-gradient(135deg, 
+    #FFFFFF 20%, #F8FAFC);
+    box-shadow: 
+       0 8px 24px rgba(70, 24, 40, 0.5),
+       0 8px 24px rgba(70, 24, 40, 0.2);
+
+    border-radius: 8px;
+    border: 16px;
+    }
+ .student_table_head_row_cell {
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px;
+ }
+
+ table {
+     border-collapse: collapse;
+     width: 100%;
+     padding: 4px;
+     margin-top: 100px;
+ }
+ /*th, td {
+     border: 1px;
+     border-color: black;
+     border-style: solid;
+     padding: 8px, 10px;
+ }*/
+ .bla {
+     color: white;
+     background-color: rgb(30%, 70%, 80%);
+ }
+ .green {
+     background-color: green;
+     color: greenyellow;
+ }
+ .games_played {
+    background-color: brown;
+    color: beige;
+ }
+ .ff_table_body {
+    border: none;
+    padding: 10px;
+    margin-top: 16px;
+ }
+ .circles {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+ }
+  #character_1 {
+   display: block;
+   width: 200px;
+   height: 200px;
+   background-color: #484949;
+   padding: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+ }
+ #char_1 {
+    object-fit: cover;
+     box-shadow: 
+       0 8px 24px rgba(30, 29, 31, 0.5),
+       0 8px 24px rgba(166, 184, 206, 0.541);
+ }
+ #character_2 {
+    background: -moz-radial-gradient(90deg,#00000083, #484949);
+
+    box-shadow: 
+       0 8px 24px rgba(9, 0, 88, 0.5),
+       0 8px 24px rgba(33, 69, 109, 0.541);
+
+ }
+ #character_3 {
+    background: -moz-radial-gradient(135deg,#00000083, #484949);
+
+    box-shadow: 
+       0 8px 24px rgba(70, 24, 40, 0.5),
+       0 8px 24px rgba(70, 24, 40, 0.2);
+
+ }
+ #character_4 {
+    background: -moz-radial-gradient(180deg,#00000083, #484949);
+
+    box-shadow: 
+       0 8px 24px rgba(70, 24, 40, 0.5),
+       0 8px 24px rgba(70, 24, 40, 0.2);
+
+ }
+ #character_5 {
+    background: -moz-radial-gradient(225deg,#00000083, #484949);
+
+    box-shadow: 
+       0 8px 24px rgba(70, 24, 40, 0.5),
+       0 8px 24px rgba(70, 24, 40, 0.2);
+
+ }
+ #character_6 {
+    background: -moz-radial-gradient(270deg,#00000083, #484949);
+
+    box-shadow: 
+       0 8px 24px rgba(70, 24, 40, 0.5),
+       0 8px 24px rgba(70, 24, 40, 0.2);
+
+ }
+ #character_7 {
+    background: -moz-radial-gradient(315deg,#00000083, #484949);
+
+    box-shadow: 
+       0 8px 24px rgba(70, 24, 40, 0.5),
+       0 8px 24px rgba(70, 24, 40, 0.2);
+
+ }
+ #character_8 {
+    background: -moz-radial-gradient(360deg,#00000083, #484949);
+
+    box-shadow: 
+       0 8px 24px rgba(70, 24, 40, 0.5),
+       0 8px 24px rgba(70, 24, 40, 0.2);
+
+ }
+ /*body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }*/
+ .circle {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   display: flex;
+   background-color: #484949;
+   background: linear-gradient(45deg, #484949, #F8FAFC);
+   transition: 0.5s; 
+   margin: 30px;
+ }
+ .circle:hover {
+  box-shadow: 
+       0 8px 24px rgba(70, 24, 40, 0.5),
+       0 8px 24px rgba(70, 24, 40, 0.2);
+   transform: scale(1.1);
+ }
+ .circle_2 {
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   display: flex;
+   background-color: #0ecfcf;
+   background: linear-gradient(90deg, #1cc4c4, #81a2c2);
+   transition: 0.5s; 
+   margin: 30px;
+ }
+ .circle_2:hover {
+  box-shadow: 
+       0 8px 24px rgba(158, 194, 235, 0.5),
+       0 8px 24px rgba(105, 113, 226, 0.63);
+ }
+ .circle_3 {
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+   display: flex;
+   background-color: #0bc21a;
+   background: linear-gradient(135deg, #01751a, #84ff11);
+   transition: 0.5s; 
+   margin: 30px;
+   animation: blue_circle_animation 5s infinite ;
+ }
+/* .circle_3:hover {
+  box-shadow: 
+       0 8px 24px rgba(34, 114, 2, 0.897),
+       0 8px 24px rgba(46, 255, 4, 0.63);
+   transform: rotateY('180deg');
+ }*/
+ @keyframes blue_circle_animation {
+   10% {
+      box-shadow: 
+       0 8px 24px rgba(34, 114, 2, 0.897);
+   }
+   25% {
+      box-shadow: 
+       0 8px 24px rgba(34, 114, 2, 0.897);
+   }
+   50% {
+      box-shadow: 
+       0 8px 24px rgba(46, 255, 4, 0.53);
+   }
+   65% {
+      box-shadow: 
+       0 8px 24px rgba(46, 255, 4, 0.63);
+   }
+   75% {
+      box-shadow: 
+       0 8px 24px rgba(46, 255, 4, 0.73);
+   }
+   100% {
+      box-shadow: 
+       0 8px 24px rgba(46, 255, 4, 0.83);
+   }
+ }

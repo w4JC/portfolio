@@ -1,0 +1,30 @@
+body{
+    background-color: silver;
+}
+.container {
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgb(255, 255, 2), #06ff13);
+    display: flex;
+    margin: auto;
+}
+.hi {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 16px;
+    padding: 8px;
+    height: 200px;
+    height: 400px;
+}
+.writeup {
+    background-color: #424242;
+    color: antiquewhite;
+    display: block;
+    text-align: justify;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0%, 0%, 0%, 0.4),
+                0 8px 24px rgba(11, 11, 44, 0.4);
+    margin-top: 3%;              
+}
