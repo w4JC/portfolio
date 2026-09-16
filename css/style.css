@@ -1,19 +1,22 @@
 body{
     background: linear-gradient(135deg, #1b1c1d, #01255a);
+    background: url("../resources/images/anime-moon-landscape.jpg");
+    background: -webkit-image-set("../resources/images/anime-moon-landscape.jpg");
+}
+.bgimage {
+    
 }
 @media screen and (min-width: 320px) and (max-width:1280px) {
     P {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;            font-size: large;
     }
 }  
-.bgimage {
-    background: url("./Portfolio/index.html/");
-}
 nav{
     background: linear-gradient(240deg, #818681, #1b1c1d );
     display: flex;
     width: 100%;
     position: fixed;
+    margin-top: -30px;
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 10px;
@@ -39,6 +42,10 @@ nav{
     color: transparent;
     background: linear-gradient(90deg, #fdfdfdd0, #002358);
     background-clip: text;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .proffession:hover {
     animation: navigation 5.5s infinite;
@@ -92,8 +99,8 @@ nav{
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0%, 0%, 0%, 0.4),
                 0 8px 24px rgba(11, 11, 44, 0.4) ;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 7%;
+    margin-right: 7%;
     padding: 20px;
 }
 .table {
